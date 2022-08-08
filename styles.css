@@ -1,0 +1,143 @@
+body{
+    font-family: 'Inter', sans-serif;
+    background-image: url(./Technology-Background-Image.jpg);   
+}
+
+.content {
+    min-width: 550px;
+    max-height: 1000px;
+}
+
+.header {
+    height: 200px;
+    width: 100%;
+    display: flex;
+    gap: 10px;
+    overflow-wrap: break-word;
+    background-color: rgba(240, 240, 191, 0.555);
+    box-sizing: content-box;
+    border: 1px solid grey;
+    box-shadow: 0.1rem 0.1rem 0.1rem darkgray;
+
+}
+.photo{
+    width: 180px;
+    height: 180px;
+    border: 1px solid grey;
+    border-radius: 50%;
+    margin: auto;
+    margin-left: 100px;
+    background-color: azure;
+    overflow: visible;
+    box-sizing: content-box;
+    box-shadow: 0.5rem 0.5rem 0.25rem darkgray;
+}
+
+.name {
+    min-width: 500px;
+    margin: auto;
+    text-align: center;
+    font-size: 30px;
+    font-style: italic;
+}
+ .about{
+    width: 100%;
+    display: flex;
+    flex-direction:row;
+    gap:20px;
+ }
+.left{
+    width: 30%; 
+    min-width: 240px;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    flex-direction: column;
+    box-sizing: content-box;
+    border: 1px solid grey;
+    box-shadow: 0.1rem 0.1rem 0.1rem darkgray;
+
+}
+.right{
+    width: 70%;
+    margin: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    box-sizing: content-box;
+}
+.apie{
+    height: 70%;
+    padding: 20px;
+    font-size: small;
+}
+h1, h2{
+    font-weight: 600;
+    text-align: center;
+    color: rgb(85, 85, 225);
+    text-shadow: 1px 1px 2px #f8f8ed;
+
+}
+p{
+    text-align: justify;
+    font-size: 15px;
+}
+table {
+    border-collapse: collapse;
+    width: 100%;
+    box-shadow: 0.1rem 0.1rem 0.1rem darkgray;
+}
+  
+th {
+    width: 20%;
+    font-family:'Inter', sans-serif;
+    border: 1px solid darkgray;
+    text-align: left;
+    padding: 8px;    
+  }
+
+td {
+    width: 80%;
+    border: 1px solid darkgray;
+    text-align: left;
+    padding: 8px;
+  }
+li {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+} 
+a {
+    color: #00aaff;
+}
+
+.kontaktai{
+    height: 30%;
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+    min-height: 60%;
+    margin: 10px;
+    font-size: small;  
+}
+.programs{
+    box-sizing: content-box;
+    border: 1px solid grey;
+    box-shadow: 0.1rem 0.1rem 0.1rem darkgray;
+    display: flex;
+    flex-direction:row; 
+    gap: 5%;
+    flex-wrap : wrap ;
+    justify-content: center;
+    text-align: center;
+
+}
+.Autocad, .HTML, .CSS, .Phyton, .JavaScript {
+    width: 100px;
+    height: 60px;
+    padding: 10px;
+    border: 2px solid green;
+    border-radius: 10px;
+    margin: 10px;    
+       
+}
